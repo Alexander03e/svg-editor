@@ -1,0 +1,28 @@
+# Build artifacts
+bin/
+obj/
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.userprefs
+
+# Logs
+*.log
+
+# Avalonia Designer cache
+.avalonia/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+packages/
+.vscode/

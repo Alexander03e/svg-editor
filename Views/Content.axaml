@@ -1,0 +1,8 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="SvgEditorApp.Views.Content">
+    <Border BorderThickness="1" Padding="10">
+        <!-- <ContentControl x:Name="ContentHost"/> -->
+        <TextBlock>content</TextBlock>
+    </Border>
+</UserControl>
