@@ -1,4 +1,6 @@
 using Avalonia.Controls;
+using SvgEditorApp.Models;
+using SvgEditorApp.ViewModel;
 
 namespace SvgEditorApp.Views
 {
@@ -7,6 +9,7 @@ namespace SvgEditorApp.Views
         public Sidebar()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }

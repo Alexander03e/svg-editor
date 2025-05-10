@@ -1,3 +1,4 @@
+using System;
 using Avalonia.Controls;
 
 namespace SvgEditorApp.Views
@@ -6,7 +7,14 @@ namespace SvgEditorApp.Views
     {
         public Content()
         {
+            
             InitializeComponent();
+            MyButton.Click += (sender, e) =>
+            {
+                Console.WriteLine(sender);
+                Console.WriteLine(e);
+                MyButton.Content = "clicked";
+            };
         }
     }
 }
